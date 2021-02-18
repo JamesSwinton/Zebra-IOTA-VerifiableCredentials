@@ -1,0 +1,7 @@
+Executable : C:\Users\JS6845\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+C:\Users\JS6845\Documents\Android Development\_Projects\VaccinationVerifierDemo\app\.cxx\cmake\debug\x86_64
+native-lib
+jvmArgs : 
+

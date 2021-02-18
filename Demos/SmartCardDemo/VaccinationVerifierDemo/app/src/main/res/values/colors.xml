@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Custom Dialog Colours -->
+    <color name="success">#4CAF50</color>
+    <color name="info">#0485DF</color>
+    <color name="warn">#FF7043</color>
+    <color name="error">#E6302D</color>
+</resources>

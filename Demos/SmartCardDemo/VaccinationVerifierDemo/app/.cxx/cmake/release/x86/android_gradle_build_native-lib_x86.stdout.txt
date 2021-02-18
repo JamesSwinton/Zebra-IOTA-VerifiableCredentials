@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Users\JS6845\Documents\Android Development\_Projects\VaccinationVerifierDemo\app\.cxx\cmake\release\x86'
+ninja: no work to do.

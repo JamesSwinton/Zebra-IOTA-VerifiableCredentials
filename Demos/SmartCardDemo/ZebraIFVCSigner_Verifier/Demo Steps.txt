@@ -1,0 +1,20 @@
+Pre Requisite:
+
+    1. Health Authroity has an Identity on the IOTA Tangle
+
+    2. Health Authroity has provided vaccination to patient
+
+/**********************************************************/
+
+Creating & Verifying Verifiable Credentials (VCs):
+
+    1. Health Authroity creates a Credential 
+
+    2. Health Authroity signs Credential with their Identity to create Verifiable Credential
+
+    2. Verifiable Credential information is encoded into a Zebra Smart Card
+
+    3. Zebra Smart Card is presented to NFC capable smart device with verifier application installed to verify the information on the Smart Card
+
+    4. Verification result (valid / invalid) is presented to operater via the smart device 
+    

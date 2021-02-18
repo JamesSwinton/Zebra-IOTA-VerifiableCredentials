@@ -1,0 +1,12 @@
+{ 
+    "SubjectDID": "",
+    "Name": "",
+	"DOB": "",
+    "VaccinationType": "",
+    "VaccinationTypeSub": "",
+    "Location": "",
+    "BatchNoDoseOne": "",
+    "DateDoseOne": "",
+    "BatchNoDoseTwo": "",
+    "DateDoseTwo": ""
+}

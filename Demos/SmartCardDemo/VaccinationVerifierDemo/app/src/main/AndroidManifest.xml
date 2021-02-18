@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  package="com.zebra.jamesswinton">
+
+  <!-- Permissions -->
+  <uses-permission android:name="android.permission.NFC" />
+  <uses-permission android:name="android.permission.INTERNET" /> <!-- Features -->
+  <uses-feature
+    android:name="android.hardware.nfc"
+    android:required="true" />
+
+  <application
+    android:name=".vaccineverificationdemo.App"
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme"
+    android:usesCleartextTraffic="true"
+    tools:ignore="AllowBackup,UnusedAttribute">
+
+    <!-- Activities -->
+    <activity
+      android:name=".vaccineverificationdemo.activities.MainActivity"
+      android:launchMode="singleTop">
+      <!-- Launcher Filter -->
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+
+    <activity
+      android:name=".vaccineverificationdemo.activities.ReadTagActivity"
+      android:launchMode="singleTask">
+      <!-- NFC Tag Filter -->
+      <intent-filter>
+        <action android:name="android.nfc.action.TECH_DISCOVERED" />
+      </intent-filter>
+      <!-- Tag Types -->
+      <meta-data
+        android:name="android.nfc.action.TECH_DISCOVERED"
+        android:resource="@xml/nfc_tags" />
+    </activity>
+  </application>
+
+</manifest>
