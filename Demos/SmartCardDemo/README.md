@@ -1,3 +1,5 @@
+Please be aware that this application / sample is provided as-is for demonstration purposes without any guarantee of support
+
 # Zebra-IOTA-VerifiableCredential-Demo
 A complete demo for creating Verifiable Credentials, encoding these onto a Mifare Classic 1K Smart Card, and then reading &amp; verifying these credentials with an android application.
 
